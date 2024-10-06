@@ -1,9 +1,75 @@
-/* You can add global styles to this file, and also import other style files */
-/* GENERAL */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/* || RESET */
 *,
 *::after,
 *::before {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+input,
+button {
+  font: inherit;
+}
+
+/* || GENERAL */
+html {
+  font-family: var(--FF);
+}
+
+body {
+  min-height: 100svh;
+}
+
+i {
+  display: grid;
+  place-items: center;
+}
+
+/* || VARIABLES */
+
+:root {
+  /* FONTS */
+  --FF: "Inter", san-serif;
+  --FS-HEADLINE-1: clamp(4rem, 3.85rem + 0.75vw, 4.75rem);
+  --FS-HEADLINE-2: clamp(2.25rem, 2.15rem + 0.5vw, 2.75rem);
+  --FS-HEADLINE-3: clamp(1.75rem, 1.625rem + 0.625vw, 2.375rem);
+  --FS-HEADLINE-4: clamp(1.25rem, 1.15rem + 0.5vw, 1.75rem);
+
+  --FS-BODY-1: clamp(1.125rem, 1rem + 0.625vw, 1.75rem);
+  --FS-BODY-2: clamp(1rem, 0.9rem + 0.5vw, 1.5rem);
+  --FS-BODY-3: clamp(0.875rem, 0.8rem + 0.375vw, 1.25rem);
+  --FS-BODY-4: clamp(0.75rem, 0.7rem + 0.25vw, 1rem);
+
+  /* COLOR */
+  --PRIMARY-COLOR: #28cb8b;
+  --SECONDARY-COLOR: #263238;
+  --INFO-COLOR: #2194f3;
+
+  /* shade */
+  --P-SHADE-1: #43a046;
+  --P-SHADE-2: #388e3b;
+  --P-SHADE-3: #237d31;
+  --P-SHADE-4: #1b5e1f;
+  --P-SHADE-5: #103e13;
+
+  /* tint */
+  --P-TINT-1: #66bb69;
+  --P-TINT-2: #81c784;
+  --P-TINT-3: #a5d6a7;
+  --P-TINT-4: #c8e6c9;
+  --P-TINT-5: #e8f5e9;
+
+  /* action */
+  --WARNING-COLOR: #fbc02d;
+  --ERROR-COLOR: #e53835;
+  --SUCCESS-COLOR: #2e7d31;
 }

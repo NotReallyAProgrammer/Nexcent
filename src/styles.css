@@ -39,20 +39,27 @@ i {
 :root {
   /* FONTS */
   --FF: "Inter", san-serif;
-  --FS-HEADLINE-1: clamp(4rem, 3.85rem + 0.75vw, 4.75rem);
-  --FS-HEADLINE-2: clamp(2.25rem, 2.15rem + 0.5vw, 2.75rem);
-  --FS-HEADLINE-3: clamp(1.75rem, 1.625rem + 0.625vw, 2.375rem);
-  --FS-HEADLINE-4: clamp(1.25rem, 1.15rem + 0.5vw, 1.75rem);
+  --FS-HEADLINE-1: clamp(4rem, 3.85rem + 0.75vw, 4.75rem); /* 64px-76px */
+  --FS-HEADLINE-2: clamp(2.25rem, 2.15rem + 0.5vw, 2.75rem); /* 36px-44px */
+  --FS-HEADLINE-3: clamp(1.75rem, 1.625rem + 0.625vw, 2.375rem); /* 28px-36px */
+  --FS-HEADLINE-4: clamp(1.25rem, 1.15rem + 0.5vw, 1.75rem); /* 20px-28px */
 
-  --FS-BODY-1: clamp(1.125rem, 1rem + 0.625vw, 1.75rem);
-  --FS-BODY-2: clamp(1rem, 0.9rem + 0.5vw, 1.5rem);
-  --FS-BODY-3: clamp(0.875rem, 0.8rem + 0.375vw, 1.25rem);
-  --FS-BODY-4: clamp(0.75rem, 0.7rem + 0.25vw, 1rem);
+  --FS-BODY-1: clamp(1.125rem, 1rem + 0.625vw, 1.75rem); /* 18px-28px */
+  --FS-BODY-2: clamp(1rem, 0.9rem + 0.5vw, 1.5rem); /* 16px-24px */
+  --FS-BODY-3: clamp(0.875rem, 0.8rem + 0.375vw, 1.25rem); /* 14px-20px */
+  --FS-BODY-4: clamp(0.75rem, 0.7rem + 0.25vw, 1rem); /* 14 px-16px */
+
+  /* SPACING */
+  --PADDING-INLINE: 5%;
 
   /* COLOR */
-  --PRIMARY-COLOR: #28cb8b;
+  --PRIMARY-COLOR: #4caf4f;
   --SECONDARY-COLOR: #263238;
   --INFO-COLOR: #2194f3;
+
+  /* neutral */
+  --NEUTRAL-SILVER: #f5f7fa;
+  --WHITE: #ffffff;
 
   /* shade */
   --P-SHADE-1: #43a046;

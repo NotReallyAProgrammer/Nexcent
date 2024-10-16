@@ -1,0 +1,11 @@
+.hero {
+  padding-inline: var(--PADDING-INLINE);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: var(--NEUTRAL-SILVER);
+  padding-block: 96px;
+}
+
+.hero__heading {
+}

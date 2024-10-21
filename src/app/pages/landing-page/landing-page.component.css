@@ -3,9 +3,38 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-evenly;
   background-color: var(--NEUTRAL-SILVER);
   padding-block: 96px;
 }
 
 .hero__heading {
+  max-width: 757px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: start;
+}
+
+.hero__heading h1 {
+  font-size: var(--FS-HEADLINE-1);
+  color: var(--D-GRAY);
+}
+
+.hero__heading h1 span {
+  color: var(--PRIMARY-COLOR);
+}
+
+.hero__heading p {
+  font-size: var(--FS-BODY-2);
+  color: var(--D-GRAY);
+}
+
+.hero__heading button {
+  padding: 15px 30px;
+  border: none;
+  font-size: var(--FS-BODY-3);
+  color: var(--WHITE);
+  background-color: var(--PRIMARY-COLOR);
+  border-radius: 5px;
 }

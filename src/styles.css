@@ -51,6 +51,7 @@ i {
 
   /* SPACING */
   --PADDING-INLINE: 5%;
+  --MAX-WIDTH:1280px;
 
   /* COLOR */
   --PRIMARY-COLOR: #4caf4f;

@@ -1,11 +1,16 @@
 .header {
   padding-inline: var(--PADDING-INLINE);
-  height: 84px;
+  background-color: var(--NEUTRAL-SILVER);
+}
+
+.header__container{
+  max-width: var(--MAX-WIDTH);
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  background-color: var(--NEUTRAL-SILVER);
+  height: 84px;
+
 }
 
 .header__icon {
@@ -51,4 +56,5 @@
 .header__sign button:last-child {
   background-color: var(--PRIMARY-COLOR);
   color: var(--WHITE);
+  margin-left: 10px;
 }

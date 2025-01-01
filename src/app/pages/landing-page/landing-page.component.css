@@ -6,6 +6,11 @@
   justify-content: space-evenly;
   background-color: var(--NEUTRAL-SILVER);
   padding-block: 96px;
+ 
+}
+
+.hero__container{
+ max-width: var(--MAX-WIDTH);
 }
 
 .hero__heading {

@@ -1,16 +1,15 @@
 .hero {
   padding-inline: var(--PADDING-INLINE);
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
   background-color: var(--NEUTRAL-SILVER);
-  padding-block: 96px;
- 
 }
 
 .hero__container{
  max-width: var(--MAX-WIDTH);
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-evenly;
+ padding-block: 96px;
 }
 
 .hero__heading {
@@ -42,4 +41,43 @@
   color: var(--WHITE);
   background-color: var(--PRIMARY-COLOR);
   border-radius: 5px;
+}
+/* END OF HERO */
+
+.client{
+  padding-inline: var(--PADDING-INLINE);
+  padding-block: 40px;
+}
+
+.client__container{
+  max-width: var(--MAX-WIDTH);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.client__heading{
+  display: grid;
+  place-items: center;
+  gap: 20px;
+}
+
+.client__heading h2{
+  font-size: var(--FS-HEADLINE-3);
+  color: var(--D-GRAY);
+}
+
+.client__heading p{
+  font-size: var(--FS-BODY-4);
+  color: var(--D-GRAY);
+}
+
+.client__logo{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width:100%;
+  padding-block: 40px;
 }

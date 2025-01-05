@@ -10,6 +10,7 @@
  align-items: center;
  justify-content: space-evenly;
  padding-block: 96px;
+ margin-inline: auto;
 }
 
 .hero__heading {
@@ -54,6 +55,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-inline: auto;
 }
 
 .client__heading{
@@ -65,6 +67,7 @@
 .client__heading h2{
   font-size: var(--FS-HEADLINE-3);
   color: var(--D-GRAY);
+  font-weight: 900;
 }
 
 .client__heading p{
@@ -80,4 +83,79 @@
   align-items: center;
   width:100%;
   padding-block: 40px;
+}
+
+.client__sub-heading{
+  margin-top: 40px;
+  margin-bottom: 20px;
+  display: grid;
+  place-items: center;
+  gap: 10px;
+}
+
+.client__sub-heading h2{
+  font-size: var(--FS-HEADLINE-3);
+  color: var(--D-GRAY);
+}
+
+.client__sub-heading p{
+  font-size: var(--FS-BODY-4);
+  color: var(--D-GRAY);
+}
+
+.client__cards{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+  justify-content: space-evenly;
+  height:max-content;
+  max-width: 300px;
+  min-height:300px;
+  border-radius: 5px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.card i{
+  position: relative;
+  height: 50px;
+  width: 50px;
+
+}
+
+.card h3{
+  font-size: var(--FS-HEADLINE-4);
+  color: var(--D-GRAY);
+  text-align: center;
+}
+
+.card p{
+  font-size: var(--FS-BODY-4);
+  text-align: center;
+  color: var(--GRAY);
+}
+
+.card i::after{
+  content: "";
+  position: absolute;
+
+  top: 10%;
+  left: 30%;
+  bottom: -10%;
+  right: -30%;
+  z-index: -1;
+  background-color: var(--P-TINT-4);
+  border-top-left-radius:5px ;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 15px;
+  opacity: 0.8;
 }

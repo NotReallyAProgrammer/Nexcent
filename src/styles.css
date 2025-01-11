@@ -34,6 +34,17 @@ i {
   place-items: center;
 }
 
+/* || DEFAULT CLASS */
+.default-button{
+  background-color: var(--PRIMARY-COLOR);
+  border-radius: 5px;
+  padding-inline: 20px;
+  padding-block: 10px;
+  border: none;
+  color: var(--NEUTRAL-SILVER);
+  font-size: var(--FS-BODY-4);
+}
+
 /* || VARIABLES */
 
 :root {

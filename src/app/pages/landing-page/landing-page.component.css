@@ -167,11 +167,17 @@
 }
 
 .middle__container{
+ 
+  max-width: var(--MAX-WIDTH);
+  margin-inline: auto;
+
+ 
+}
+
+.middle__learn{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  max-width: var(--MAX-WIDTH);
-  margin-inline: auto;
 }
 
 .middle__container figure {
@@ -183,7 +189,7 @@
   height: auto;
 }
 
-.middle__info{
+.learn__info{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -191,12 +197,12 @@
   max-width: 600px;
 }
 
-.middle__info h2{
+.learn__info h2{
   font-size: var(--FS-HEADLINE-3);
   color: var(--D-GRAY);
 }
 
-.middle__info p{
+.learn__info p{
   font-size: var(--FS-BODY-4);
   color: var(--D-GRAY);
 }
